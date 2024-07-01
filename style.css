@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+     background: #081b29;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .5s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: yellowgreen;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1{
+   font-size: 56px;
+   font-weight: 700;
+   color: yellowgreen;
+}
+
+.home-content h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(0, 255, 179, 0.671);
+ }
+
+ .home-content p{
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    margin: 20px 0 40px;
+ }
+
+ .home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 458px;
+    height: 60px;
+ }
+
+ .btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background: cyan;
+    border: 2px solid cyan;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+
+/* .btn-box a:nth-child(2){
+    background: transparent;
+    color: cyan
+} */
+
+.home-sci {
+    position: absolute;
+    bottom: 140px;
+    width: 170px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background: transparent;
+    border: 3px solid cyan;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgba(0, 255, 179, 0.671);
+    text-decoration: none;
+}
